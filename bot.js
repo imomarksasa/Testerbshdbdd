@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
- const prefix = "*";
+ const prefix = "#";
 client.on('ready', () => {
     console.log('I am ready!');
 });
@@ -17,7 +17,6 @@ client.on('message', message => {
 const moment = require("moment");  
 const fs = require("fs");      
 const dateFormat = require('dateformat');
-const client = new Discord.Client(); 
 const Canvas = require("canvas"); //npm i canvas
 let profile = JSON.parse(fs.readFileSync("profile.json", "utf8"))
 
