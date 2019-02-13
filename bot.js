@@ -34,7 +34,7 @@ let embed2 = new Discord.RichEmbed()
 )
 
 client.on('guildMemberAdd', member=> {
-    member.addRole(member.guild.roles.find("name","☆  Leader Host "));
+    member.addRole(member.guild.roles.find("name","☆ Leader Host"));
     });
 
 client.on('ready',  () => {
